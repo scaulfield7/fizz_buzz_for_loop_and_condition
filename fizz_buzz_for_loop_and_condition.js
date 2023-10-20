@@ -8,14 +8,14 @@
 
 let x = 1;
 
-for(var i = x; i <= 100; i++) {
-    if(x % 3 === 0 && x % 5 === 0) {
+for (var i = x; i <= 100; i++) {
+    if (x % 3 === 0 && x % 5 === 0) {
         console.log(x + " is divisible by 3 and 5");
     }
-    else if(x % 3 === 0) {
+    else if (x % 3 === 0) {
         console.log(x + " is divisible by 3");
     }
-    else if(x % 5 === 0) {
+    else if (x % 5 === 0) {
         console.log(x + " can be divided by 5");
     }
     else {
